@@ -1,5 +1,8 @@
 # Example Device Limiting Express.js Application Using FusionAuth APIs With A UI
 
+> [!WARNING]
+> This repository is generated from content that lives at [github.com/FusionAuth/fusionauth-site](https://github.com/FusionAuth/fusionauth-site/tree/main/astro/extractedcode/example-device-limit-friendly). Changes to files here _will be overwritten by that automation_. File an issue or pull request with [fusionauth-site](https://github.com/FusionAuth/fusionauth-site) instead.
+
 This repo holds an example Express.js application that uses FusionAuth as the identity provider. 
 This application will use an OAuth Authorization Code Grant workflow to log a user in and 
 get them access and refresh tokens. It also implements a form of device limiting using FusionAuth's APIs and webhooks. This is a user friendly example of device limiting which presents the user with a list of devices they are logged in on and allows them to log out of a device if they are over the limit.
